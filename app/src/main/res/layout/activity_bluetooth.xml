@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Switch
+        android:id="@+id/sw_ble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="蓝牙"/>
+
+    <Button
+        android:id="@+id/bt_openBle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打开蓝牙" />
+
+    <Button
+        android:id="@+id/bt_closeBle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="关闭蓝牙" />
+
+    <Button
+        android:id="@+id/bt_discoverBle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="扫描蓝牙" />
+
+    <ListView
+        android:id="@+id/lv_ble"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
